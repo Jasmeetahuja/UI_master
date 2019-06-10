@@ -1,0 +1,77 @@
+/* Css start for main div */
+.sameline{
+    height:250px;
+    width: 300px;
+    background:thistle;
+    float: left;
+    /*margin: 10px;*/
+    margin-left: 10px;
+    overflow: scroll;
+    border: 5px double teal;
+    box-shadow: 5px 5px gray;
+    opacity: .9;
+    border-radius:10%;
+}
+
+h2{
+    color:blueviolet;
+}
+
+.sameline h2{
+    color: hotpink;
+    text-align: center;
+}
+
+.sameline p{
+    padding: 10px;
+}
+
+.topmargin{
+    margin-top:10px;
+    background: #8e9f87;
+    color: #fff;
+    overflow: hidden;
+    border: 5px groove yellow
+}
+
+.topmargin h2{
+    color: #fff
+}
+
+.main_div{
+    margin-left:80px;
+}
+.circletag{
+    border-radius:50%;
+    overflow:scroll;
+    overflow-x:scroll;
+    
+}
+.sumup{
+    width:90%;
+    background: #a678d0;
+    border:5px dotted maroon
+
+}
+
+@media screen and (min-width:400px){
+    body{
+        background-color: lime;
+    }
+    
+}
+
+@media screen and (min-width:800px){
+    body{
+        background-color: yellow;
+    }
+    
+}
+
+/* Css end for main div 
+solid
+dotted
+dashed
+double
+groove
+*/
